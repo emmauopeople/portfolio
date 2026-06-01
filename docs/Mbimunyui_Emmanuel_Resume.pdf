@@ -1,0 +1,167 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 3773 >>
+stream
+BT
+/F1 13 Tf
+54 742 Td (MBIMUNYUI EMMANUEL) Tj
+/F1 9.5 Tf
+54 720 Td (Registered Nurse | Health IT / Clinical Informatics Candidate | DevOps and Cloud) Tj
+/F1 9.5 Tf
+54 706 Td (Practitioner) Tj
+/F1 9.5 Tf
+54 692 Td (Oklahoma City, OK | mbimunyui87@yahoo.com | 405-551-1960 | github.com/emmauopeople) Tj
+/F1 13 Tf
+54 669 Td (PROFESSIONAL SUMMARY) Tj
+/F1 9.5 Tf
+54 647 Td (Registered Nurse transitioning into Health IT, clinical informatics, healthcare) Tj
+/F1 9.5 Tf
+54 633 Td (systems support, and DevOps-oriented technology roles. Brings bedside clinical) Tj
+/F1 9.5 Tf
+54 619 Td (experience, patient-safety thinking, documentation discipline, and practical IT) Tj
+/F1 9.5 Tf
+54 605 Td (training in cloud, Linux, CI/CD, monitoring, databases, and full-stack development.) Tj
+/F1 13 Tf
+54 582 Td (TECHNICAL SKILLS) Tj
+/F1 9.5 Tf
+54 560 Td (Clinical Informatics: clinical workflow analysis, patient-care documentation, EHR) Tj
+/F1 9.5 Tf
+54 546 Td (workflow awareness, health data privacy, quality improvement, foundational FHIR/HL7) Tj
+/F1 9.5 Tf
+54 532 Td (concepts.) Tj
+/F1 9.5 Tf
+54 518 Td (Cloud and DevOps: AWS, Linux, Docker, Docker Compose, Kubernetes, Terraform, Ansible,) Tj
+/F1 9.5 Tf
+54 504 Td (Nginx, Certbot, GitHub Actions, CI/CD, GHCR, backup and rollback planning.) Tj
+/F1 9.5 Tf
+54 490 Td (Monitoring and Reliability: Prometheus, Grafana, cAdvisor, node-exporter, logs, health) Tj
+/F1 9.5 Tf
+54 476 Td (checks, uptime monitoring, incident troubleshooting, performance dashboards.) Tj
+/F1 9.5 Tf
+54 462 Td (Web and API Development: JavaScript, Node.js, Express, React, Vite, Tailwind CSS,) Tj
+/F1 9.5 Tf
+54 448 Td (HTML, CSS, REST APIs, Axios, PostgreSQL, MySQL, SQLite.) Tj
+/F1 13 Tf
+54 425 Td (SELECTED PROJECT EXPERIENCE) Tj
+/F1 9.5 Tf
+54 403 Td (MSIT Capstone: One Community Platform | University of the People | 2026) Tj
+/F1 9.5 Tf
+54 389 Td (- Built and documented a mobile-first service-discovery platform where providers) Tj
+/F1 9.5 Tf
+54 375 Td (- can register, create skill listings, upload images, and be discovered through) Tj
+/F1 9.5 Tf
+54 361 Td (- category and location-based search.) Tj
+/F1 9.5 Tf
+54 347 Td (- Implemented and tested components using React/Vite, Node.js/Express, PostgreSQL,) Tj
+/F1 9.5 Tf
+54 333 Td (- Docker Compose, Nginx, object storage, and GitHub Actions.) Tj
+/F1 9.5 Tf
+54 319 Td (- Created system testing documentation, maintenance planning, backup and rollback) Tj
+/F1 9.5 Tf
+54 305 Td (- strategy, and monitoring dashboards using Prometheus, Grafana, cAdvisor, and node-) Tj
+/F1 9.5 Tf
+54 291 Td (- exporter.) Tj
+/F1 9.5 Tf
+54 277 Td (DevOps and Cloud Portfolio Projects | 2024-2026) Tj
+/F1 9.5 Tf
+54 263 Td (- Designed AWS multi-tier architecture and CI/CD workflows using GitHub Actions,) Tj
+/F1 9.5 Tf
+54 249 Td (- container-based deployment, release tracking, and rollback planning.) Tj
+/F1 13 Tf
+54 226 Td (CLINICAL AND PROFESSIONAL EXPERIENCE) Tj
+/F1 9.5 Tf
+54 204 Td (Registered Nurse | SSM Health | Oklahoma City, OK | 2024-2025) Tj
+/F1 9.5 Tf
+54 190 Td (- Provided patient-centered nursing care while coordinating with interdisciplinary) Tj
+/F1 9.5 Tf
+54 176 Td (- teams, documenting patient status, and supporting safe clinical workflows.) Tj
+/F1 9.5 Tf
+54 162 Td (Registered Nurse - Medical-Surgical / Specialty Care | Select Specialty Hospital |) Tj
+/F1 9.5 Tf
+54 148 Td (Oklahoma City, OK | 2021-2025) Tj
+/F1 9.5 Tf
+54 134 Td (- Managed complex patient care, medication administration, clinical monitoring,) Tj
+/F1 9.5 Tf
+54 120 Td (- provider communication, documentation accuracy, discharge planning, and continuity) Tj
+/F1 9.5 Tf
+54 106 Td (- of care.) Tj
+/F1 9.5 Tf
+54 92 Td (LPN / RN Charge Nurse | Bellevue Health and Rehabilitation | Oklahoma City, OK |) Tj
+/F1 9.5 Tf
+54 78 Td (2016-2021) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 1479 >>
+stream
+BT
+/F1 9.5 Tf
+54 742 Td (- Supported medication administration, staff coordination, care-plan) Tj
+/F1 9.5 Tf
+54 728 Td (- implementation, patient/family communication, documentation review, and) Tj
+/F1 9.5 Tf
+54 714 Td (- operational problem solving.) Tj
+/F1 9.5 Tf
+54 700 Td (Computer Science Teacher and Lab Technician | Secondary Education | Cameroon |) Tj
+/F1 9.5 Tf
+54 686 Td (2012-2014) Tj
+/F1 9.5 Tf
+54 672 Td (- Taught foundational computer science concepts and supported computer lab) Tj
+/F1 9.5 Tf
+54 658 Td (- operations.) Tj
+/F1 13 Tf
+54 635 Td (EDUCATION AND CERTIFICATIONS) Tj
+/F1 9.5 Tf
+54 613 Td (Master of Science in Information Technology | University of the People | In Progress) Tj
+/F1 9.5 Tf
+54 599 Td (Associate Degree in Nursing Science | Oklahoma State University | 2018-2020) Tj
+/F1 9.5 Tf
+54 585 Td (Practical Nursing Program | Francis Tuttle Technology Center | 2015-2016) Tj
+/F1 9.5 Tf
+54 571 Td (Bachelor Degree in Education - Computer Science | University of Bamenda | 2012) Tj
+/F1 9.5 Tf
+54 557 Td (Registered Nurse \(RN\) - Oklahoma | Certified Kubernetes Administrator \(CKA\), 2023 |) Tj
+/F1 9.5 Tf
+54 543 Td (Basic Life Support \(BLS\) | HIPAA) Tj
+/F1 13 Tf
+54 520 Td (TARGET ROLES) Tj
+/F1 9.5 Tf
+54 498 Td (Health IT Specialist | Clinical Informatics Associate | EHR Support Analyst |) Tj
+/F1 9.5 Tf
+54 484 Td (Healthcare Systems Analyst | Healthcare DevOps / Platform Support | FHIR /) Tj
+/F1 9.5 Tf
+54 470 Td (Interoperability Trainee) Tj
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000317 00000 n 
+0000004142 00000 n 
+0000004268 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+5799
+%%EOF

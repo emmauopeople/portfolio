@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="One Community MSIT capstone project by Mbimunyui Emmanuel, including architecture, DevOps, testing, monitoring, and live links.">
+  <title>Projects | Mbimunyui Emmanuel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html" aria-label="Mbimunyui Emmanuel home">
+        <span class="brand-mark">ME</span>
+        <span>Mbimunyui Emmanuel</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+      </button>
+      <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page-main">
+    <section class="page-intro">
+      <div class="container">
+        <p class="eyebrow">Projects</p>
+        <h1>MSIT capstone and DevOps portfolio work.</h1>
+        <p>Focused project summaries for recruiters and reviewers, with live links, architecture notes, and implementation evidence.</p>
+      </div>
+    </section>
+
+    <div class="container project-layout">
+      <aside class="project-side-nav" aria-label="Project sections">
+        <a href="#msit-project">MSIT Project</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#testing">Testing</a>
+        <a href="#operations">Operations</a>
+        <a href="#links">Live Links</a>
+      </aside>
+
+      <article class="project-content">
+        <section class="project-detail" id="msit-project">
+          <p class="eyebrow">University of the People | MSIT Capstone</p>
+          <h2>One Community Platform</h2>
+          <p class="lead">
+            One Community is a mobile-first service-discovery platform that helps public users find local service providers such as plumbers, electricians, tailors, drivers, hairdressers, mechanics, cleaners, and other skilled workers.
+          </p>
+          <div class="meta-grid">
+            <div>
+              <span>Name</span>
+              <strong>Mbimunyui Emmanuel</strong>
+            </div>
+            <div>
+              <span>Program</span>
+              <strong>Master of Science in Information Technology</strong>
+            </div>
+            <div>
+              <span>Institution</span>
+              <strong>University of the People</strong>
+            </div>
+            <div>
+              <span>Focus</span>
+              <strong>Full-stack, DevOps, testing, monitoring, maintenance</strong>
+            </div>
+          </div>
+          <div class="action-row">
+            <a class="button button-primary" href="https://www.cameroonskills.org">Live Site</a>
+            <a class="button button-secondary" href="https://api.cameroonskills.org">API</a>
+          </div>
+        </section>
+
+        <section class="project-section">
+          <h3>Project Context</h3>
+          <p>
+            The project addresses a common problem in developing communities: skilled workers often provide essential services but remain hard to discover because service discovery still depends heavily on word of mouth. One Community gives providers a place to register, publish skill listings, upload media, and become searchable by category, keyword, and location.
+          </p>
+          <p>
+            Public users can search for local services and contact providers through familiar channels such as WhatsApp or email. Administrators manage provider activity, moderation, analytics, and operational oversight.
+          </p>
+        </section>
+
+        <section class="project-section" id="architecture">
+          <h3>Architecture and Technology</h3>
+          <p>
+            The system follows a layered web platform model with a React/Vite frontend, Node.js/Express backend, PostgreSQL database, object storage for media, Nginx reverse proxy, Docker Compose deployment, GitHub Actions, GitHub Container Registry, Prometheus, Grafana, cAdvisor, and node-exporter.
+          </p>
+          <div class="card-grid two">
+            <article class="info-card">
+              <h4>Application Layer</h4>
+              <p>Public platform, provider dashboard, admin portal, API workflows, authentication, OTP verification, search, geolocation, analytics, and event logging.</p>
+            </article>
+            <article class="info-card">
+              <h4>Data Layer</h4>
+              <p>PostgreSQL stores users, providers, skills, requests, logs, events, and audit information. Object storage supports media uploads and backups.</p>
+            </article>
+            <article class="info-card">
+              <h4>Deployment Layer</h4>
+              <p>Docker Compose, Nginx, Certbot, GitHub Actions, and GHCR support containerized deployment, HTTPS routing, releases, and rollback planning.</p>
+            </article>
+            <article class="info-card">
+              <h4>Monitoring Layer</h4>
+              <p>Prometheus, Grafana, cAdvisor, and node-exporter provide visibility into backend health, containers, server metrics, and operational behavior.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="project-section">
+          <h3>Core Features</h3>
+          <ul class="clean-list">
+            <li>Provider registration, OTP verification, profile management, skill creation, editing, and media upload.</li>
+            <li>Public search by keyword, category, location, and nearby service discovery.</li>
+            <li>Admin oversight for provider activation, deactivation, moderation, requests, complaints, and audit visibility.</li>
+            <li>Analytics and monitoring through user events, login logs, system metrics, and dashboards.</li>
+            <li>Security and reliability practices including HTTPS, RBAC, secure sessions, backups, rollback, and maintenance planning.</li>
+          </ul>
+        </section>
+
+        <section class="project-section" id="testing">
+          <h3>Testing and Evaluation</h3>
+          <p>
+            System testing confirmed the main workflows: provider login, active-provider skill creation, inactive-provider blocking, public search, backend health checks, mobile image upload, unit tests, and runtime monitoring.
+          </p>
+          <div class="result-grid">
+            <span>Provider login: Pass</span>
+            <span>Skill creation: Pass</span>
+            <span>Inactive provider block: Pass</span>
+            <span>Public search: Pass</span>
+            <span>Backend health check: HTTP 200</span>
+            <span>Mobile image upload: Pass after troubleshooting</span>
+            <span>Selected Jest unit tests: Pass</span>
+            <span>Monitoring dashboard: Operational</span>
+          </div>
+        </section>
+
+        <section class="project-section" id="operations">
+          <h3>Deployment, Monitoring, and Maintenance</h3>
+          <p>
+            The report includes a practical maintenance plan: Grafana and service health review, daily database backup checks after the 2:00 a.m. backup job, weekly backend and Nginx log review, dependency and security update review, monthly restore testing, GitHub issue review, and tagged releases for rollback.
+          </p>
+          <p>
+            Risk planning covers security vulnerabilities, data loss, deployment failure, performance degradation, usability issues, and search limitations. Mitigations include dependency scanning, HTTPS, RBAC, password hashing, monitoring, daily backups, restore testing, tagged releases, Docker image versioning, and future load testing.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <h3>Future Roadmap</h3>
+          <ul class="clean-list">
+            <li>Expand automated end-to-end, load, security, and user acceptance testing.</li>
+            <li>Improve search with Elasticsearch for faster full-text, category, location, and relevance-based retrieval.</li>
+            <li>Add an LLM-based text search assistant for natural language service discovery.</li>
+            <li>Improve multilingual access, provider onboarding, and real-user feedback collection.</li>
+          </ul>
+        </section>
+
+        <section class="project-section" id="links">
+          <h3>Project Links</h3>
+          <div class="link-list">
+            <a href="https://www.cameroonskills.org">Live Site: cameroonskills.org</a>
+            <a href="https://api.cameroonskills.org">API: api.cameroonskills.org</a>
+            <a href="https://github.com/emmauopeople/1community_app">Public App Repository</a>
+            <a href="https://github.com/emmauopeople/one-community-admin">Admin Repository</a>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Mbimunyui Emmanuel. Built for MSIT Capstone and DevOps Portfolio.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
